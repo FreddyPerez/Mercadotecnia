@@ -1,0 +1,250 @@
+header{
+  background-color: white;
+  padding: 60px;
+  text-align: center;
+  font-size: 35px;
+  color: dodgerblue;
+      }
+
+   .tituloconceptos{
+     text-align: justify;
+     color: #C0392B;
+     font-size: 34px;
+     font-family: cursive;
+                   }   
+     
+    .titulos{
+             font-family: Verdana, Geneva, Tahoma, sans-serif;
+             font-size: 26px;
+             color: dodgerblue;
+             }
+
+ 
+      
+ p{
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 22px;
+   text-align: justify;
+ }
+
+
+
+ #cajamercadeo{
+   background-color: #ADD8E6;
+   color: black;
+   display: inline-block;
+              }
+ #cajamercadotecnia{
+   background-color:#FFA07A;
+   color: black;
+   background-position: right;
+   display: inline-block;
+                  }  
+                  
+  #cajamarketing{
+               background-color: #DAA520;
+               color: black;
+               background-position: right;
+               display: inline-block;
+                 }
+
+
+.navbar-brand {
+  display: inline-block;
+  padding-top: .3125rem;
+  padding-bottom: .3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+   white-space: nowrap;
+   margin-left: 15%;
+   }
+
+
+   .fondotitulo{
+     background-color: #5DADE2;
+     color: white;
+     padding: 10px;
+
+             }
+
+.borderimagen{
+  border-radius: 8px;
+             }
+
+ .moverderecha{
+   margin-left: 8%;
+   }
+
+
+#linea{ 
+text-decoration: underline   solid   orange;
+}
+
+
+.nav-link{
+  font-size: 22px;
+}
+
+#espaciodebajo{
+  padding: 1em;
+             }
+
+#galeria img{
+  float: left;
+  margin: 1em;
+  padding: 10px;
+  border: 1px solid #CCC;
+             }
+
+  body{
+       overflow-x: hidden;
+      }
+
+      hr{
+        background-color: orange;
+        padding: 2px;
+        margin-right: 5%;
+
+         }
+
+     
+      #justificado{
+        text-align: justify;
+                  }
+
+  #espacioimagen{
+    margin: 20px;
+  }     
+  
+  @media only screen and (max-width: 300px) {
+    body {
+      font-size:20px;
+         }
+         }
+
+      table{
+           width: 100%;
+           font-family: Arial, Helvetica, sans-serif;
+           border: 4px solid;
+           word-break: keep-all;
+           word-wrap: break-word;
+           display: block;
+           font-size: 28px;
+
+
+          }
+
+           .titulotabla{
+                   background:#5DADE2;
+                   padding: 5px;
+                   color:white;
+                  }
+          
+
+        td, th{
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 24px;
+            padding: 5px;  
+        }
+
+        tr:nth-child(even){
+          background: #F8C471;
+        }
+          
+
+          thead{
+            text-align: center;
+          }
+
+    .lineatabla{
+               border-color: dodgerblue;
+               
+               }
+
+     li{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 20px;
+     }     
+
+     /* Quitar puntos lista footer */
+     .list-redes {
+       list-style: none;
+     }
+
+     footer{
+       background: orange;
+     }
+
+  
+    /* Iconos redes sociales */
+
+    .fa-facebook-square{
+      color: #3b5998;  
+      background: -webkit-linear-gradient(#3b5998, #23355B);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+     }
+
+     .fa-instagram{
+      color: #3f729b;  /* Fallback other browsers */
+      background: -webkit-linear-gradient(#ad5e1d, #26445D);
+     -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+     }
+
+     .fa-envelope{
+      color:red;  
+      background: -webkit-linear-gradient(red, #c42828);
+     -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+     }
+
+     .fa-youtube{
+      color: #c42828; 
+      background: -webkit-linear-gradient(#c42828, #c42828);
+     -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+     }
+
+     .ir-arriba {
+      display:none;
+      padding:20px;
+      background:#024959;
+      font-size:20px;
+      color:#fff;
+      cursor:pointer;
+      position: fixed;
+      bottom:20px;
+      right:20px;
+      transform: translate(0px, 20px);
+      -ms-transform: translate(0px, 20px); /* IE 9 */
+      -webkit-transform: translate(0px, 20px); /* Safari y Chrome */
+      -moz-transform: translate(0px, 20px); /* Firefox */
+      opacity: 0.2;
+    }
+
+    #fondomamey{
+      background-image: url(../img/salon\ de\ clases.jpg)
+    }
+
+    .tituloenlace{
+                  text-align: left;
+                  font-size: 22;
+                  color: dodgerblue;
+                  }
+ 
+
+    /*  Medium devices (tablets, 768px and up) */
+     @media (min-width: 768px) { 
+     width: 100%;
+     margin-bottom: 20px;
+     margin-right: 0;
+                          }
+ 
+
+
+
+
+ 

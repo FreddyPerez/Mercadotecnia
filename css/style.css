@@ -33,12 +33,16 @@ header{
    background-color: #ADD8E6;
    color: black;
    display: inline-block;
+   padding-top:70px;
+   padding-bottom:70px
               }
  #cajamercadotecnia{
    background-color:#FFA07A;
    color: black;
    background-position: right;
    display: inline-block;
+   padding-top:70px;
+   padding-bottom:70px
                   }  
                   
   #cajamarketing{
@@ -46,6 +50,8 @@ header{
                color: black;
                background-position: right;
                display: inline-block;
+               padding-top:70px;
+               padding-bottom:70px
                  }
 
 

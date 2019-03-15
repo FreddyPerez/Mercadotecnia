@@ -27,6 +27,10 @@ header{
    text-align: justify;
  }
 
+ #bordenaranja{
+   border: 2px solid #DAA520;
+ }
+
 
 
  #cajamercadeo{
